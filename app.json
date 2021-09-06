@@ -1,34 +1,39 @@
-{
-    "name": "Auto Filter Bot V2",
+ {
+    "name": "AutoFilterV2bot",
     "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
-    "logo": "https://telegra.ph/file/667e15c821117633d07bd.png",
+    "logo": "https://telegra.ph/file/443098c8532ccaa903543.jpg",
     "keywords": [
         "Auto",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/AlbertEinsteinTG",
-    "repository": "https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2",
-    "success_url": "https://telegram.dog/CrazyBotsz",
+    "website": "https://github.com/AthiraMohan1",
+    "repository": "https://github.com/AthiraMohan1/Adv-Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/HNFILMCORNER",
     "env": {
         "APP_ID": {
-            "description": "Your APP ID From my.telegram.org or @UseTGXBot",
+            "description": "Your APP ID From my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your API Hash From my.telegram.org or @UseTGXBot",
+            "description": "Your API Hash From my.telegram.org",
             "value": ""
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
+        "FORCESUB_CHANNEL": {
+            "description": "For Force Subscribe. Paste your forcesubscribe channel USERNAME (without @)..",
+            "value": "",
+            "required": false
+        },
         "DB_URI": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
             "value": ""
         },
         "USER_SESSION": {
-            "description": "A Pyrogram User Session String. Generated From @PyrogramStringBot",
+            "description": "A Pyrogram User Session String. Generated from https://replit.com/@MRJINNOFTG/TG-SESSION",
             "value": ""
         }
     },
