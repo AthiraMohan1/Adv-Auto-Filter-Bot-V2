@@ -56,7 +56,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Main Channel', url="https://t.me/DealerofDesire"
+                                    'Join Our Main Channel', url="https://t.me/DealerofDesire"
                                 )
                         ]
                     ]
